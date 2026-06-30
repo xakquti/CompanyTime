@@ -17,6 +17,7 @@ val Lilac = Color(0xFFEEF1FF)
 val LightPurple = Color(0xFFB3C0FF)
 
 val Purple = Color(0xFF728AFF)
+val Selected = Color(0x404665FF)
 
 val Black = Color(0xFF000000)
 

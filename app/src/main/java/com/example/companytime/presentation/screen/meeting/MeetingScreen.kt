@@ -297,5 +297,9 @@ fun MeetingScreen(
                 )
             }
         }
+
+        item {
+            Spacer(Modifier.height(128.dp))
+        }
     }
 }

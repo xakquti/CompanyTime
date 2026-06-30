@@ -65,7 +65,13 @@ val Typography = Typography(
     titleSmall = TextStyle(
         fontFamily = FontFamily(Font(R.font.google_sans_medium)),
         fontWeight = FontWeight.Normal,
-        fontSize = 14.sp,
+        fontSize = 12.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    ),
+    bodySmall = TextStyle(
+        fontFamily = FontFamily(Font(R.font.google_sans_bold)),
+        fontSize = 12.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     )

@@ -70,10 +70,11 @@ class MainActivity : ComponentActivity() {
                                 modifier = Modifier.windowInsetsPadding(NavigationBarDefaults.windowInsets)
                             )
                         }
-                    }
+                    },
+                    contentColor = Color.Transparent
                 ) { innerPadding ->
                     NavDisplay(
-                        modifier = Modifier.padding(innerPadding),
+                        modifier = Modifier.padding(top = innerPadding.calculateTopPadding()),
                         backStack = navigator.backStack,
                         onBack = {navigator.goBack()},
                         entryProvider = entryProvider,

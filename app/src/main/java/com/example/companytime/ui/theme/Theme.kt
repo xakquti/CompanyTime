@@ -24,8 +24,9 @@ private val DarkColorScheme = darkColorScheme(
     onSurface = White,
     error = Rose,
     surfaceDim = White,
-    surfaceBright = White,
-    surfaceVariant = GreyLight
+    surfaceBright = CornFlowerBlue,
+    surfaceVariant = GreyLight,
+    surfaceTint = Selected
 )
 
 private val LightColorScheme = lightColorScheme(
@@ -39,9 +40,10 @@ private val LightColorScheme = lightColorScheme(
     onTertiary = Black,
     onSurfaceVariant = SoftGrey,
     error = Rose,
-    surfaceDim = CornFlowerBlue,
-    surfaceBright = White,
-    surfaceVariant = White
+    surfaceDim = Black,
+    surfaceBright = CornFlowerBlue,
+    surfaceVariant = White,
+    surfaceTint = Selected
 )
 
 @Composable

@@ -35,7 +35,7 @@ val remoteModule = module {
     single<ApiService>{
         val json: Json = get()
         Retrofit.Builder()
-            .baseUrl("your_url")
+            .baseUrl("http://192.168.1.8:8080")
             .client(get<OkHttpClient>())
             .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
             .build()
